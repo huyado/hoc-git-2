@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu 9: Category (Danh sách danh mục)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .section {
+            background-color: aliceblue;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            text-align: center;
+            font-family: "Be Vietnam Pro", system-ui;
+        }
+
+        .title {
+            font-size: 50px;
+            font-weight: 700;
+            color: #192335;
+        }
+
+        .box {
+            display: inline-block;
+            width: 260px;
+            text-decoration: none;
+            text-align: left;
+            color: #192335;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        .box-yellow {
+            background-color: #fffccf;
+        }
+
+        .box-green {
+            background-color: rgb(104, 158, 104);
+        }
+
+        .box-pink {
+            background-color: rgb(207, 185, 189);
+        }
+
+        .box-blue {
+            background-color: rgb(144, 144, 228);
+        }
+
+        .box .image-main {
+            object-fit: cover;
+            width: 100%;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+        .box img {
+            border-radius: 6px;
+            object-fit: cover;
+            width: 250px;
+            height: 150px;
+        }
+
+        .box h3 {
+            color: #192335;
+            margin-top: 15px;
+        }
+
+        .box p {
+            color: #91B2C6;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 14px;
+        }
+
+        .box:hover h3{
+            color: blue;
+        }
+
+        .box ul {
+            list-style: none;
+            margin-left: 0px;
+        }
+
+        .box ul {
+            padding: 0;
+            margin: 20px 0;;
+        }
+
+        .box ul li {
+            margin-bottom: 10px;
+            color: #192335;
+            font-size: 14px;
+
+        }
+
+        .box ul li i {
+            width: 25px;
+            color: #192335;
+        }
+
+        .box p {
+            font-size: 14px;
+            color:#192335;
+            margin-top: 0;
+            margin-bottom: 0;
+        } 
+
+        .box p i {
+            margin-left: 5px;
+        }
+
+    </style>
+
+    <h2>Câu 9: Category (Danh sách danh mục)</h2>
+    <p><b>Yêu cầu</b>: Sử dụng HTML và CSS để dựng khối bên dưới (Dùng kiểu hiển thị inline-block, dùng font Be Vietnam Pro).</p>
+
+    <div class="section">
+        <h2 class="title">Danh sách danh mục</h2>
+        <a class="box box-green" href="">
+            <img class="image-main" src="image/chemistry.webp" alt="Chemistry">
+            <h3>Web Design</h3>
+            <ul>
+                <li><i class="fa-regular fa-heart"></i>Health and Wellness</li>
+                <li><i class="fa-solid fa-book"></i>Literacy and Language</li>
+                <li><i class="fa-brands fa-linkedin"></i>Social-Emotional Learning</li>
+                <li><i class="fa-brands fa-figma"></i>Visual and Creative Arts</li>
+                <li><i class="fa-solid fa-book"></i>Thinking and Learning</li>
+            </ul>
+            <p>Xem Thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+        <a class="box box-yellow" href="">
+            <img class="image-main" src="image/history.jpg" alt="Chemistry">
+            <h3>Graphic Design</h3>
+            <ul>
+                <li><i class="fa-regular fa-heart"></i>Health and Wellness</li>
+                <li><i class="fa-solid fa-book"></i>Literacy and Language</li>
+                <li><i class="fa-brands fa-linkedin"></i>Social-Emotional Learning</li>
+                <li><i class="fa-brands fa-figma"></i>Visual and Creative Arts</li>
+                <li><i class="fa-solid fa-book"></i>Thinking and Learning</li>
+            </ul>
+            <p>Xem Thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+        <a class="box box-blue" href="">
+            <img class="image-main" src="image/math.jpg" alt="Chemistry">
+            <h3>Software</h3>
+            <ul>
+                <li><i class="fa-regular fa-heart"></i>Health and Wellness</li>
+                <li><i class="fa-solid fa-book"></i>Literacy and Language</li>
+                <li><i class="fa-brands fa-linkedin"></i>Social-Emotional Learning</li>
+                <li><i class="fa-brands fa-figma"></i>Visual and Creative Arts</li>
+                <li><i class="fa-solid fa-book"></i>Thinking and Learning</li>
+            </ul>
+            <p>Xem Thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+        <a class="box box-pink" href="">
+            <img class="image-main" src="image/physics.webp" alt="Chemistry">
+            <h3>Moblie App</h3>
+            <ul>
+                <li><i class="fa-regular fa-heart"></i>Health and Wellness</li>
+                <li><i class="fa-solid fa-book"></i>Literacy and Language</li>
+                <li><i class="fa-brands fa-linkedin"></i>Social-Emotional Learning</li>
+                <li><i class="fa-brands fa-figma"></i>Visual and Creative Arts</li>
+                <li><i class="fa-solid fa-book"></i>Thinking and Learning</li>
+            </ul>
+            <p>Xem Thêm <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+    </div>
+</body>
+</html>
